@@ -1,0 +1,14 @@
+{
+  "name": "twitch-clone",
+  "version": "1.0.0",
+  "description": "mini streaming RTMP app",
+  "main": "react-scripts start",
+  "scripts": { 
+    "start": "npm start --prefix ./client/",
+    "db:start": "docker run --name json-server --restart=always -d -p 3001:3001 -v ./api:/db.json clue/json-server && docker run --name nms -d -p 1935:1935 -p 8000:8000 illuspas/node-media-server",
+    "db:stop": "docker stop json-server && docker container rm json-server && docker stop nms && docker container rm nms",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brent Zey",
+  "license": "ISC"
+}

@@ -1,0 +1,31 @@
+{
+  "streams": [
+    {
+      "title": "NBA 2K21",
+      "description": "NEW GAME!!!!",
+      "id": 1
+    },
+    {
+      "title": "NBA 2K21",
+      "description": "NEW GAME!!!!",
+      "id": 2
+    },
+    {
+      "description": "Worst game ever",
+      "title": "Madden 21",
+      "id": 3
+    },
+    {
+      "title": "Playing NBA 2K20",
+      "description": "In the Rec with my buds from the Dub -- NOW TESTING A PATCH REQUEST INSTEAD -- it worked! Heck ya!",
+      "userId": "115813671747932658458",
+      "id": 5
+    },
+    {
+      "title": "First Stream after StreamForm Refactor",
+      "description": "Our \"CreateStream\" component now utilizes \"StreamForm\" - much more re-usable code for our \"EditStream\" component as well",
+      "userId": "115813671747932658458",
+      "id": 6
+    }
+  ]
+}
